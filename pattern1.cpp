@@ -26,6 +26,8 @@ void print3(int n)
         cout << endl;
     }
 }
+
+
 void print4(int n)
 {
     int i = 0;
@@ -37,5 +39,5 @@ int main()
 {
     int n;
     cin >> n;
-    print4(n);
+    print3(n);
 }
