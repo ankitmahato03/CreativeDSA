@@ -61,5 +61,5 @@ int main()
 {
     int n;
     cin >> n;
-    print3(n);
+    nNumberTriangle(n);
 }
