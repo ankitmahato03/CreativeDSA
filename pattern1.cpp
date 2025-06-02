@@ -30,11 +30,33 @@ void print3(int n)
 //change
 void print4(int n)
 {
-    int i = 0;
-    for (int j = 0; j <= i; j++)
-    {
-    }
+   for (int i=1; i<=n;i++){
+   
+   for (int j=1;j<=i;j++){
+   
+   cout<< i<< " ";
+   }
+   cout<< endl;
+   }
 }
+
+
+
+void nNumberTriangle(int n) {
+    // Write your code here.
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n-i+1;j++){
+            cout<<j<<" ";
+        }
+        cout << endl;
+    }
+
+
+}
+
+
+
+
 int main()
 {
     int n;
