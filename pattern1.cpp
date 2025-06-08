@@ -27,36 +27,37 @@ void print3(int n)
     }
 }
 
-//change
+// change
 void print4(int n)
 {
-   for (int i=1; i<=n;i++){
-   
-   for (int j=1;j<=i;j++){
-   
-   cout<< i<< " ";
-   }
-   cout<< endl;
-   }
-}
+    for (int i = 1; i <= n; i++)
+    {
 
+        for (int j = 1; j <= i; j++)
+        {
 
-
-void nNumberTriangle(int n) {
-    // Write your code here.
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=n-i+1;j++){
-            cout<<j<<" ";
+            cout << i << " ";
         }
         cout << endl;
     }
-
-
 }
 
+void nNumberTriangle(int n)
+{
+    // Write your code here.
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n - i + 1; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+}
 
-// hello 
+// hello
 // hello 2
+// hello 3
 
 int main()
 {
