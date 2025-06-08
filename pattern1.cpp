@@ -54,6 +54,44 @@ void nNumberTriangle(int n)
         cout << endl;
     }
 }
+void nNumberTriangle2(int n)
+{
+    // Write your code here.
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n - i + 1; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+}
+void nNumberTriangle5(int n)
+{
+    // Write your code here.
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n - i + 1; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+}
+void nNumberTriangle4(int n)
+{
+    // Write your code here.
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n - i + 1; j++)
+        {
+            cout << j << " ";
+        }
+        cout << endl;
+    }
+}
+
+
 
 // hello
 // hello 2
@@ -65,3 +103,4 @@ int main()
     cin >> n;
     nNumberTriangle(n);
 }
+
