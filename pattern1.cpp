@@ -41,6 +41,7 @@ void print4(int n)
         cout << endl;
     }
 }
+// test
 
 void nNumberTriangle(int n)
 {
@@ -91,8 +92,6 @@ void nNumberTriangle4(int n)
     }
 }
 
-
-
 // hello
 // hello 2
 // hello 3
@@ -103,4 +102,3 @@ int main()
     cin >> n;
     nNumberTriangle(n);
 }
-
