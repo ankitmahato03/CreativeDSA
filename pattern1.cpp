@@ -274,11 +274,85 @@ void pattern16(int n){
     }
 }
 
+void pattern17(int n){
+    int intspace=0;
+    for(int i=0;i<n;i++){
+        //stars
+        for(int j=1;j<=n-i;j++){
+            cout<<"*";
+        }
+        //spaces
+        for(int j=0;j<intspace;j++){
+            cout<<" ";
+        }
+
+        //stars
+        for(int j=1;j<=n-i;j++){
+            cout<<"*";
+        }
+
+        intspace +=2;
+        cout<<endl;
+        
+    }
+
+    intspace=2*n-2;
+    for(int i=1;i<=n;i++){
+        //stars
+        for(int j=1;j<=i;j++){
+            cout<<"*";
+        }
+        //spaces
+        for(int j=0;j<intspace;j++){
+            cout<<" ";
+        }
+
+        //stars
+        for(int j=1;j<=i;j++){
+            cout<<"*";
+        }
+
+        intspace -=2;
+        cout<<endl;
+        
+    }
+}
+
+
+
+void pattern18(int n){
+    int space=2*n-2;
+    for (int i=1;i<=2*n-1;i++){
+        
+        int starts=i;
+        if(i>n) starts=2*n-i;
+
+
+        //stars
+        for(int j=1;j<=starts;j++){
+            cout<<"*";
+        }
+
+        //space
+        for(int j= 0;j<=space;j++){
+            cout<<" ";
+        }
+
+        //stars
+        for(int j=1;j<=starts;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+        if(i<n) space -=2;
+        else space +=2;
+    }
+}
+
 
 int main()
 {
     int n;
     cout << "Enter the number: " ;
     cin >>n;
-    pattern16(n);
+    pattern18(n);
 }
